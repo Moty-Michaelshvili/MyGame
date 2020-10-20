@@ -1,0 +1,55 @@
+#player1 {
+    height: 80px;
+    width: 120px;
+}
+#ball {
+    height: 40px;
+    width: 40px;
+}
+#goalKeeper {
+    height: 50px;
+    width: 100px;
+}
+#gate {
+    height: 200px;
+    width: 950px;
+}
+#centerGate{
+    position: absolute;
+    right: 180px;
+    bottom: 400px;
+}
+#goalKeeperCenter{
+    position: absolute;
+    right: 610px;
+    bottom: 460px;
+    z-index: 1;
+}
+#centerBall{
+    position: absolute;
+    right: 630px;
+    bottom: 100px;
+    z-index: 1;
+}
+#centerPlayer1{
+    position: absolute;
+    right: 590px;
+    bottom: 10px;
+}
+body{
+    background-color: yellowgreen;
+}
+#scoreGoals{
+    position: absolute;
+    bottom: 340px;
+    font-size: xx-large;
+}
+#scoreGoalKeeper{
+    position: absolute;
+    bottom: 290px;
+    font-size: xx-large;
+}
+h3{
+    position: absolute;
+    bottom: 50px;
+}
